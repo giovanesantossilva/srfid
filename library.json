@@ -1,0 +1,27 @@
+{
+    "name": "SRFID",
+    "version": "1.0.0",
+    "license": "Unlicense",
+    "keywords": [
+        "spi",
+        "rfid",
+        "srfid",
+        "rc522",
+        "mfrc522"
+    ],
+    "description": "Simple arduino library for rfid RC522",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GIovaneSantosSilva/srfid.git"
+      },
+    "exclude": "doc",
+    "frameworks": "arduino",
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "ststm32", 
+        "espressif8266", 
+        "espressif32", 
+        "samd"
+    ]
+  }
