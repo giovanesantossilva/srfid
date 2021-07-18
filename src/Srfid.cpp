@@ -36,9 +36,7 @@ void Srfid::finaly() {
 bool Srfid::authenticate(byte trailerBlock) {
   MFRC522::StatusCode status = this->rfid->PCD_Authenticate(MFRC522::PICC_CMD_MF_AUTH_KEY_A, trailerBlock, this->key, this->uid);
   if(status != MFRC522::STATUS_OK) {
-    #ifdef SRFID_ERROR_LOG
-      Serial.print("[~SRFID] Authenticate failed: ");
-    #endif
+    Serial.print("[~SRFID] Authenticate failed: ");
     Serial.println(this->rfid->GetStatusCodeName(status));
     return false;
   }
