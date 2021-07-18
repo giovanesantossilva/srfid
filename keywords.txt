@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map for library Srfid
+#######################################
+
+#######################################
+# KEYWORD1 Classes, datatypes
+#######################################
+Srfid KEYWORD1
+
+#######################################
+# KEYWORD2 Methods, functions
+#######################################
+init        KEYWORD2
+verify      KEYWORD2
+finaly      KEYWORD2
+setName     KEYWORD2
+setLastName KEYWORD2
+getType     KEYWORD2
+getUUID     KEYWORD2
+getBase     KEYWORD2
+getName     KEYWORD2
+getLastName KEYWORD2
+getFullName KEYWORD2
+resetKey    KEYWORD2
