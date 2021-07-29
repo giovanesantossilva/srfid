@@ -39,6 +39,7 @@ void loop()
 	Serial.println(last);
 	Serial.print("FullName: ");
 	String fullname = myRfid.getFullName(" "); // Get full name with delimiter
+	Serial.println(fullname);
 
 	myRfid.finaly();
 	delay(1000);
